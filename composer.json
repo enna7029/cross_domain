@@ -1,0 +1,20 @@
+{
+    "name": "enna/cross_domain",
+    "description": "This is a cross domain middleware",
+    "type": "composer-plugin",
+    "license": "GPL-2.O",
+    "autoload": {
+        "psr-4": {
+            "Enna\\CrossDomain\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "enna",
+            "email": "w1069103107@outlook.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "^6.0"
+    }
+}
